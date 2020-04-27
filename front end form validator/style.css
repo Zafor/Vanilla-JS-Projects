@@ -10,7 +10,11 @@
 }
 
 body {
-  background-color: #f9fafb;
+  /* background-color: #f9fafb; */
+  background-image: url(./bg-img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: "Open Sans", sans-serif;
   display: flex;
   align-items: center;
@@ -18,6 +22,7 @@ body {
   min-height: 100vh;
   margin: 0;
 }
+/* Image by <a href="https://pixabay.com/users/webentwicklerin-5523/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5061139">Gabriele Lässer</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5061139">Pixabay</a> */
 
 .container {
   background-color: #fff;
